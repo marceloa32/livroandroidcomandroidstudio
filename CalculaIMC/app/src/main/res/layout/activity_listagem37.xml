@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Listagem37">
+
+    <TableRow>
+        <TextView
+            android:text="Nome"
+            android:layout_width="100px" />
+        <EditText
+            android:id="@+id/EditText01"
+            android:layout_width="200px"/>
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:text="Endereço"/>
+        <EditText
+            android:id="@+id/EditText02"/>
+    </TableRow>
+    <TableRow>
+        <TextView/>
+        <Button
+            android:id="@+id/Button01"
+            android:text="Enviar"/>
+    </TableRow>
+
+</TableLayout>

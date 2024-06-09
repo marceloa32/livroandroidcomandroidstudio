@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Listagem35">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Peso:"/>
+
+        <EditText
+            android:id="@+id/etPeso"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:text=""/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Altura:"/>
+
+        <EditText
+            android:id="@+id/etAltura"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:text=""/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="IMC:"/>
+
+        <TextView
+            android:id="@+id/tvResult"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0,0:"/>
+
+        <Button
+            android:id="@+id/btCalcular"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Calcular"/>
+
+        <Button
+            android:id="@+id/btLimpar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Limpar"/>
+
+        <Button
+            android:id="@+id/btExtra1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Extra 1"/>
+
+        <Button
+            android:id="@+id/btExtra2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Extra 2"/>
+
+        <Button
+            android:id="@+id/btExtra3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Extra 3"/>
+
+        <Button
+            android:id="@+id/btExtra4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Extra 4"/>
+
+        <Button
+            android:id="@+id/btExtra5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Extra 5"/>
+
+        <Button
+            android:id="@+id/btExtra6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Extra 6"/>
+
+        <Button
+            android:id="@+id/btExtra7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Extra 7"/>
+
+        <Button
+            android:id="@+id/btExtra8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Extra 8"/>
+
+        <Button
+            android:id="@+id/btExtra9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Extra 9"/>
+
+        <Button
+            android:id="@+id/btExtra10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Extra 10"/>
+
+        <Button
+            android:id="@+id/btExtra11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Extra 11"/>
+
+        <Button
+            android:id="@+id/btExtra12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Extra 12"/>
+    </LinearLayout>
+</ScrollView>
